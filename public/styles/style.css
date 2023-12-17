@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://images.pexels.com/photos/108941/pexels-photo-108941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+form {
+    height: 100vh;
+}
+
+form h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.25%;
+}
+
+.input {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+form h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+}
