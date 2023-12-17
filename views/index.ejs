@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to your external stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
     <title>Weather App</title>
 </head>
 <body>
+    <!-- Weather form -->
     <form action="/check-weather" method="POST">
         <h1>Enter a location:</h1>
+
+        <!-- Latitude input -->
         <div class="container">
-            <!-- <label for="latitude">Latitude:</label> -->
             <input id="latitude" name="latitude" class="input" type="text" placeholder="Latitude">
         </div>
+
+        <!-- Longitude input -->
         <div class="container">
-            <!-- <label for="longitude">Longitude:</label> -->
             <input id="longitude" name="longitude" class="input" type="text" placeholder="Longitude">
         </div>
+
+        <!-- Submit button -->
         <div class="container">
             <input class="button" type="submit" value="Search">
         </div>
+
+        <!-- Weather condition result -->
         <h2>Your location is <%= condition %> within the next 24 Hours.</h2>
     </form>
 </body>
